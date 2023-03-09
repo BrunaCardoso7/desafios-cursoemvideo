@@ -44,9 +44,8 @@ section#redes_sociais{
     text-align: right;
 }
 section#redes_sociais img:hover{
-    height: 40px;
-    width: 40px;
-    border: 2px solid #fff;
+    border: 2px solid #f8f6f6;
+    transform: translate(-3px,-3px);
 }
 section#redes_sociais img{
     
