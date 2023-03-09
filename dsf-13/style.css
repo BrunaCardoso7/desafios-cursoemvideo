@@ -16,6 +16,7 @@ main{
     background-attachment: fixed;
     background-size: cover;
 }
+
 section#telefone{
     position: absolute;
     top: 50%;
@@ -27,4 +28,33 @@ section#telefone{
     background-repeat: no-repeat;
     background-image: url(../dsf-13/pacote-d013/imagens/frame-iphone.png);
     background-attachment: auto;
+}
+section >iframe{
+    position: absolute;
+    top: 12.5%;
+    left: 5.6%;
+    transform: rotate(-12.5%, -5.6%);
+    height: 72.6%;
+    width: 66.7%;
+    border-radius: 4px;
+
+}
+section#redes_sociais{
+    padding-top: 50px;
+    text-align: right;
+}
+section#redes_sociais img:hover{
+    height: 40px;
+    width: 40px;
+    border: 2px solid #fff;
+}
+section#redes_sociais img{
+    
+    background-size: auto;
+    border-radius: 50%;
+    height: 5%;
+    width: 5%;
+    box-shadow:  5px 1px 19px rgba(255, 0, 0, 0.581);
+    margin: 10px;
+    box-sizing: border-box;
 }
